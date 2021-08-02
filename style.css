@@ -138,11 +138,12 @@ button{
 
 /* 아랫부분 */
 .sub-box{
+    display: inline-block;
     background-color: #F2F2F2;
-    position: absolute;
     width: 100%;
-    bottom: 0px;
-    height: 100px;
+    height: 213px;
+    margin-top: 135px;
+    margin-bottom: -10px;
 }
 .sub-box > *{
     margin-left: 170px;
@@ -151,7 +152,7 @@ button{
 .company-name{
     font-weight: 700;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 53px;
     height: 40px;
     border-bottom: 1px solid grey;
 }
@@ -163,7 +164,8 @@ button{
     font-size: 14px;
     font-weight: 700;
     color: #4F4F4F;
-    margin-top: 10px;
+    margin-top: 36px;
+    margin-bottom: 38px;
 }
 .twitter{
     margin-right: 25px;
