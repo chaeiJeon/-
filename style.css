@@ -1,0 +1,171 @@
+/* 메인 부분 */
+li{
+    list-style: none;
+}
+.main-box, .list-box, .list-item, .poster{
+    border-radius: 15px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.main-box{
+    width: 1060px;
+    height: 1170px;
+    background: #F2F2F2;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 41px;
+    margin-bottom: 37px;
+}
+.submenu{
+    width: 650px;
+    border-top: 2px solid #BDBDBD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.submenu > *{
+    font-weight: 500;
+    margin-top: 28px;
+    font-size: 16px;
+}
+.submenu > :first-child{
+    font-weight: 900;
+    margin-left: 140px;
+}
+.submenu > :last-child{
+    margin-right: 140px;
+}
+.list-box{
+    width: 1003px;
+    height: 962px;
+    background: #FFFFFF;
+    margin:29px;
+}
+.list-item{
+    width: 220px;
+    height: 441px;
+    background: #FFFFFF;
+    border: 2px solid grey;
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top:20px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.poster{
+    display: block;
+    margin : 0 auto;
+    margin-top:20px;
+    margin-bottom: 11px;
+}
+.title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    color: black;
+    display: block;
+    margin-bottom: 12px;
+}
+.title ~ *{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.movie-info{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.score ~ *{ /* 개요, 평점 아랫부분 */
+    margin-top: 5px;
+}
+.base{
+    color: grey;
+}
+.genre{
+    display: inline-block;
+}
+.score{
+    float: right;
+}
+.star{
+    color: #EB5757;
+    margin-right: 3px;
+}
+button{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 18px;
+    width: 115px;
+    height: 41px;
+    background-color: #F2F2F2;
+    border : 1px solid #BDBDBD;
+}
+.ticketing{
+    margin-right: -3px;
+    margin-left: -1px;
+}
+.trailer{
+    margin-left: -3px;
+}
+.trailerImage{
+    position: relative;
+}
+.arrow, .border{
+    position: absolute;
+    right: 73px;
+}
+.arrow{
+    bottom: -15px;
+    right: 77px;
+}
+.border{
+    bottom: -18.5px;
+}
+
+/* 아랫부분 */
+.sub-box{
+    background-color: #F2F2F2;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 100px;
+}
+.sub-box > *{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.company-name{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 1px solid grey;
+}
+.company-name > *{
+    float: right;
+}
+.company-introduce{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+.twitter{
+    margin-right: 25px;
+}
+.TheJungle{
+    float: right;
+}
